@@ -73,6 +73,7 @@ html {
     transform: translateX(50%) translateY(-40%) skewX(15deg) skewY(2deg);
     position: absolute;
     animation: move-eye-skew 5s ease-out infinite;
+    z-index: 1;
 }
 .iris:before {
     content: "";
@@ -111,7 +112,7 @@ html {
 }
 
 .contact {
-    z-index: 1;
+    z-index: 2;
 }
   
 .contact a {
